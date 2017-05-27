@@ -14,6 +14,7 @@ def clear_screen():
 
 def print_banner():
     print("""
+==============================================
 
   _____           _ _
  |  __ \         | (_)
@@ -24,9 +25,8 @@ def print_banner():
          __/ |
         |___/
 
-[+]Github:   github.com/mr0mx
+[+]Github:   github.com/gDutr4
 [+]Email:    devgabrieldutra@gmail.com
-[+]Facebook: fb.com/mr0mx
 
 =============================================
 

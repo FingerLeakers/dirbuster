@@ -25,7 +25,7 @@ def print_banner():
          __/ |
         |___/
 
-[+]Github:   github.com/gDutr4
+[+]Github:   github.com/T9xx
 [+]Email:    devgabrieldutra@gmail.com
 
 =============================================

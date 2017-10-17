@@ -1,8 +1,7 @@
 from __future__ import print_function
 from os import system
 from sys import platform
-import argparse
-import requests
+import argparse, requests
 
 
 def clear_screen():
@@ -37,7 +36,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('target', help='target to explore (e.g.: google.com)')
     args = parser.parse_args()
-
+    
     with open('wordlist/wordlist.txt') as wordlist1:
         endpoints = wordlist1.readlines()
         url_base = args.target if args.target.startswith('http') else 'http://' + args.target
